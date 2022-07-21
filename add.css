@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(219, 195, 195);
+}
+input{
+    border: none;
+    border-bottom: 3px solid #097219;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+input:focus{
+    outline: none;
+    background: none;
+}
+button{
+    margin-top: 3em;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
+.input-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: min(500px, 90%);
+    margin: 0 auto;
+    background: white;
+    padding: 1.5em 2em;
+    border:0.1em solid #808080;
+    height: fit-content;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.add{
+    padding: 0.8em;
+    background: #c5d3ed;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+h1{
+    color: orange;
+    text-align: centre;
+}
+.card h1{
+    text-align: center
+}
+label{
+    color: #000000;
+    font-size: 24px;
+}
+
